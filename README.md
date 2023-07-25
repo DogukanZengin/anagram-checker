@@ -28,6 +28,8 @@ This application takes two words as input and creates a boolean(true/false) outp
 - First build the jar package with ```./mvnw clean install```
 - Then in the same folder run the following command ```./mvnw spring-boot:run```
 - Go to http://localhost:8080/index.html to check anagrams!
+- 
+![anagram-interface.jpg](anagram-interface.jpg)
 
 Check [AnagramCheckerService](/src/main/java/com/io/beyonnex/service/AnagramCheckerService.java) for algorithm details
 ## Thanks!
