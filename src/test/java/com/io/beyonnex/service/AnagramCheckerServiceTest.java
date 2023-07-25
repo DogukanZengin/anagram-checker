@@ -31,7 +31,9 @@ class AnagramCheckerServiceTest {
             "true, cheater, teacher",
             "true, santa, satan",
             "false, table, tablo",
-            "false, chair, hairf"
+            "false, chair, hairf",
+            "true, Deductions, Discounted",
+            "true, Discriminator, Doctrinairism"
     })
     void csvInputRandomTests(boolean expected, String first, String second) {
         var input = new InputDto(first, second);
