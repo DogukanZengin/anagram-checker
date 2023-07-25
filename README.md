@@ -24,7 +24,7 @@ This application takes two words as input and creates a boolean(true/false) outp
 
 ## 4. How To Run
 
-- Extract the zip and go to project root in terminal/console (For Linux: ```cd ~/anagram-checker```)
+- Clone the repository and go to project root in terminal/console (For Linux: ```cd ~/anagram-checker```)
 - First build the jar package with ```./mvnw clean install```
 - Then in the same folder run the following command ```./mvnw spring-boot:run```
 - Go to http://localhost:8080/index.html to check anagrams!
